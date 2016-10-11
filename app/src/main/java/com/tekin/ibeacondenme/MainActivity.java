@@ -56,9 +56,9 @@
                             "Giriş verileri kaydedildi");
 
 
-                    tv.setText("Serkan");
+                    tv.setText("Ömür");
 
-                    tv1.setText("KÜÇÜK");
+                    tv1.setText("Tekin");
 
                     SimpleDateFormat tarih = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -78,12 +78,12 @@
 
                 public void onExitedRegion(Region region) {
 
-                    showNotification("Dershaneden çıkış yapıldı", "Günlük veriler kaydedildi");
+                    showNotification("Dersten çıkış yapıldı", "Günlük veriler kaydedildi");
 
 
-                    tv.setText("Serkan");
+                    tv.setText("Ömür ");
 
-                    tv1.setText("KÜÇÜK");
+                    tv1.setText("TEKİN");
 
                     SimpleDateFormat tarih = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -110,7 +110,7 @@
 
                     beaconManager.startMonitoring(new Region("monitored region",
 
-                            UUID.fromString("B9407F30-F5F8-466E-AFF9-25556B57FE6D"), 26675, 59880));
+                            UUID.fromString("Beacon-ID"), MinorID, MajorID));
 
                 }
 
